@@ -1,7 +1,5 @@
 # google-sheets-schema
 
-*(currently unpublished draft - do not try to use!)*
-
 ## What does this do?
 Connects to an existing Google Sheets spreadsheet document, generates new sheets, and writes table headings for an existing spreadsheet (horizontal only at this time i.e. fields go across A1:Z). You might be asking yourself, but wait, can't I just open up a Google Sheets spreadsheet and enter a bunch of fields that way? Well, yes, you could and you'd probably spend a lot less time typing. But this is the start of project (or a few projects) that hopes to make different aspects of Google APIs slightly less of a struggle to use.
 

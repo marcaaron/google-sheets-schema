@@ -44,7 +44,7 @@ SPREADSHEET_ID=<YOUR SPREADSHEET_ID GOES HERE>
 With your API credentials and spreadsheetId set you can now create a node script for generating sheets with headings. Here's a basic example:
 
 ```javascript
-const { GoogleSheetSchema, authenticate } = 'google-sheets-schema';
+const { GoogleSheetSchema, authenticate } = require('google-sheets-schema');
 
 const keyValues = [
 	['Book', [

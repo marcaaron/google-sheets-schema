@@ -33,7 +33,7 @@ Head over to [Google Cloud console](https://console.cloud.google.com). You'll ne
 	- `https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit`
 - Create a `.env` file with the following:
  
-```
+```shell
 GOOGLE_APPLICATION_CREDENTIALS="./credentials.json"
 SPREADSHEET_ID=<YOUR SPREADSHEET_ID GOES HERE>
 ```
@@ -89,7 +89,7 @@ The authenticate function is an async function that returns a JWT Auth object th
 **schemaValues** - a 2D array of key value pairs
 Why a 2D array? Because behind the scenes we're using a JS Map object. You could also pass in here an object of key value pairs, but you'd have to use Object.entries() to convert it into an array.
 
-```
+```javascript
 const keyValues = Object.entries({
 	Book: [ 'id', 'title', 'author'],
 	Author: [ 'id', 'name', 'birth_year']

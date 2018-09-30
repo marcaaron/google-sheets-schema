@@ -1,0 +1,16 @@
+{
+  "name": "google-sheets-schema",
+  "version": "0.1.0",
+  "description": "Generate A Google Sheet Schema with NodeJS",
+  "main": "index.js",
+  "author": "Marc Aaron",
+  "homepage":"https://github.com/marcaaron/google-sheets-schema"
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "googleapis": "^34.0.0"
+  },
+  "engines": {
+    "node": ">=9.0.0"
+  }
+}
